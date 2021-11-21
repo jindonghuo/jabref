@@ -148,6 +148,7 @@ public class ImportAction {
     /**
      * TODO: Move this to logic package. Blocked by undo functionality.
      */
+
     private ParserResult mergeImportResults(List<ImportFormatReader.UnknownFormatImport> imports) {
         BibDatabase resultDatabase = new BibDatabase();
         ParserResult result = new ParserResult(resultDatabase);

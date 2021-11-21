@@ -47,7 +47,7 @@ public class ActionFactory {
     /*
      * Returns MenuItemContainer node associated with this menu item
      * which can contain:
-     *   1. label node of type Label for displaying menu item text,
+     *   1. label node of type Label for displaying menu item text ,
      *   2. right node of type Label for displaying accelerator text,
      *      or an arrow if it's a Menu,
      *   3. graphic node for displaying menu item icon, and
